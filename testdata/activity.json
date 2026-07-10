@@ -1,0 +1,14 @@
+{
+    "create_activity": {
+        "id": 0,
+        "title": "API Automation Activity",
+        "dueDate": "2026-07-10T09:34:40.960Z",
+        "completed": true
+    },
+    "update_activity": {
+        "id": 151,
+        "title": "Updated Activity",
+        "dueDate": "2026-07-10T10:05:48.011Z",
+        "completed": true
+    }
+}
