@@ -7,7 +7,8 @@ from utils.api_client import APIS
 def api_client():
     return APIS()
 
-def load_test_data():
+def \
+load_test_data():
     file_path = Path(__file__).parent.parent / "testdata" / "activity.json"
 
     with open(file_path, "r", encoding="utf-8") as file:
@@ -44,7 +45,6 @@ def test_update_activity(api_client):
     response_data = response.json()
     assert response_data["title"] == payload["title"]
     assert response_data["completed"] == payload["completed"]
-
 
 # DELETE
 def test_delete_activity(api_client):

@@ -1,4 +1,10 @@
-import pytest
+try:
+    import pytest
+except ImportError as exc:
+    raise ImportError(
+        "pytest is not installed in the active Python environment. "
+        "Install it with: python -m pip install pytest"
+    ) from exc
 from datetime import datetime
 import os
 
